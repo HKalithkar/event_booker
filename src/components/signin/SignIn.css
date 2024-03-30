@@ -1,0 +1,40 @@
+.signin-container {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    color: white;
+    border-radius: 5px;
+}
+
+.signin-form > * {
+    padding: 20px;
+}
+
+.signin-form label {
+    margin: 5px 0;
+    display: block;
+}
+
+.signin-form input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    color: black;
+}
+
+.signin-button {
+    padding: 5px 20px;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    cursor: pointer;
+    border-radius: 5px;
+}

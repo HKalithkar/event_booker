@@ -1,0 +1,22 @@
+.account-container {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-container > * {
+    margin: 20px;
+}
+
+.account-details {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.account-details * {
+    margin: 10px;
+}

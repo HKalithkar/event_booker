@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+.home-container > * {
+    margin: 10px;
+    text-align: center;
+}
+
+.home-container > h2 {
+    font-size: 4rem;
+}
+
+.home-container > h3 {
+    font-size: 2rem;
+}
+
+.home-container > p {
+    font-size: 1.5rem;
+}
+
+.home-buttons {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    cursor: pointer;
+}
+
+.home-buttons:hover {
+    background-color: white;
+    color: black;
+}

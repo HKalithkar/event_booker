@@ -1,0 +1,31 @@
+.event {
+    width: 500px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event > * {
+    margin: 10px;
+}
+
+.event-date {
+    text-align: end;
+}
+
+.event-status {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.event-status > p {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
