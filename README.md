@@ -24,9 +24,12 @@ Others that I will do: Didn't Secure Password using HashCode and Should make Fro
 
 ![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/myAccount.png)
 
-6) Events page with three fiters.
-   (i) All Events.
+6) Events page with three fiters
+
+   (i) All Events
+
    (ii) Upcoming (includes on upcoming events and not those which were completed previously, filters based on current date).
-   (iii) Registered (includes those events which the Signed In user registered) : This part is incomplete.
+   
+   (iii) Registered (includes those events which the Signed In user registered) : This part is incomplete
 
 ![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/events.png)
