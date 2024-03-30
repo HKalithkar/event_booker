@@ -1,8 +1,31 @@
-# React + Vite
+Status: Working on **Registered Section** and **Create New Event** in Events Section
+Others that I will do: Didn't Secure Password using HashCode and Should make Frontend part better
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Screenshots**
 
-Currently, two official plugins are available:
+1) When not Signed In
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/notSigned.png)
+
+2) When Signed In
+
+![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/signed.png)
+
+3) Register page
+
+![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/register.png)
+
+4) Sign In page
+
+![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/SignIn.png)
+
+5) My Account page (When SignedIn and clicked on username in Nav Bar)
+
+![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/myAccount.png)
+
+6) Events page with three fiters
+   (i) All Events
+   (ii) Upcoming (includes on upcoming events and not those which were completed previously, filters based on current date)
+   (iii) Registered (includes those events which the Signed In user registered) : This part is incomplete
+
+![notSigned](https://github.com/HKalithkar/event_booker/blob/main/public/events.png)
