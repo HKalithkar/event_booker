@@ -16,6 +16,7 @@ export default function Events() {
           title={event.name}
           description={event.description}
           date={event.date}
+          author={event.author}
         />
       ))
     );

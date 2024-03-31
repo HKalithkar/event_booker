@@ -42,6 +42,7 @@ export default function Event(props) {
       <h4>
         {props.eventID}: {props.title}
       </h4>
+      <h6>Created by: {props.author}</h6>
       <p>{props.description}</p>
       <p className="event-date">{props.date}</p>
       <div className="event-status">

@@ -1,0 +1,46 @@
+.new-event-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-event-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    color: white;
+    border-radius: 5px;
+}
+
+.new-event-form > * {
+    padding: 20px;
+}
+
+.new-event-form label {
+    margin: 5px 0;
+    display: block;
+}
+
+.new-event-form input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    color: black;
+}
+
+.new-event-form textarea {
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.new-button {
+    padding: 5px 20px;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -7,6 +7,7 @@ import Register from "./components/register/Register";
 import SignIn from "./components/signin/SignIn";
 import MyAccount from "./components/myaccount/MyAccount";
 import Events from "./components/events/Events";
+import NewEvent from "./components/newevent/NewEvent";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/myAccount" element={<MyAccount />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/createEvent" element={<NewEvent />} />
         </Routes>
         <Footer />
       </BrowserRouter>
