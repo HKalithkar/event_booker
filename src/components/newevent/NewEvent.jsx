@@ -65,7 +65,7 @@ export default function NewEvent() {
       <h4>Enter Details to Create new Event</h4>
       <form className="new-event-form" onSubmit={handleEventForm}>
         <div className="new-eventID">
-          <label htmlFor="eventID">Enter Event ID</label>
+          <label htmlFor="eventID">Event ID</label>
           <input type="text" id="eventID" name="eventID" value={event.eventID} style={{textAlign: 'center', backgroundColor: 'lightgray'}} readOnly />
         </div>
         <div className="new-title">
