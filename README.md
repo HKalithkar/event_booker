@@ -34,6 +34,6 @@ Others that I will do: Didn't Secure Password using HashCode and Should make Fro
 
 ![events](https://github.com/HKalithkar/event_booker/blob/main/public/events.png)
 
-7) Create New Event
+7) Create New Event (EventID is read only, it is set depending on the total events)
 
 ![newEvent](https://github.com/HKalithkar/event_booker/blob/main/public/newEvent.png)
