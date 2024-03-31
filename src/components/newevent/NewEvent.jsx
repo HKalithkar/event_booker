@@ -52,6 +52,11 @@ export default function NewEvent() {
   }
 
   useEffect(() => {
+    if(!localStorage.getItem("username")) {
+     alert("Please Sign in to create new event");
+     navigate("/signin");
+     return
+    }
      initial();
   }, []);
 
