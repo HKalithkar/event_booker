@@ -28,7 +28,7 @@
 }
 
 .event-data {
-    margin: 0 15px;
+    margin: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

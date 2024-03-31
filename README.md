@@ -1,6 +1,6 @@
-Status: Working on **Registered Section** in Events Section.
+Status: Working
 
-Others that I will do: Didn't Secure Password using HashCode and Should make Frontend part better.
+Others that I will do: Password not secured, Making frontend better, Optimize code, There may be errors/bugs
 
 **Screenshots**
 
