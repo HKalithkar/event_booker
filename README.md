@@ -35,3 +35,5 @@ Others that I will do: Didn't Secure Password using HashCode and Should make Fro
 ![events](https://github.com/HKalithkar/event_booker/blob/main/public/events.png)
 
 7) Create New Event
+
+![newEvent](https://github.com/HKalithkar/event_booker/blob/main/public/newEvent.png)
